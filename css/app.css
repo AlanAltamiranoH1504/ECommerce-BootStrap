@@ -1,0 +1,59 @@
+:root {
+    --bs-blue: #037BC0;
+    --bs-green: #8cbc00;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+h1, h2, h3{
+    font-family: "Playfair", serif;
+}
+h1{
+    font-size: 3.8rem;
+}
+@media (min-width: 700px) {
+    h1{
+        font-size: 5rem;
+    }
+}
+
+.hero{
+    background-image: url("../img/principal.jpg");
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+@media (min-width: 768px) {
+    .hero{
+        height: 55rem;
+    }
+}
+
+.producto img{
+    
+}
+@media (min-width: 768px) {
+    .producto img{
+        height: 43rem;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/*Reescritura de colores*/
+.text-primary{
+    color: var(--bs-blue) !important;
+}
+.btn-success{
+    background-color: var(--bs-green) !important;
+}
+
+.bg-primary{
+    background-color: var(--bs-blue) !important;
+}
