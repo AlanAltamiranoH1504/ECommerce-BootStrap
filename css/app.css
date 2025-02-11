@@ -65,3 +65,8 @@ h1{
 .categoria img:hover{
     transform: scale(1.2);
 }
+
+/* Estilos para la galeria*/
+.galeria li{
+    margin-bottom: 1rem;
+}
